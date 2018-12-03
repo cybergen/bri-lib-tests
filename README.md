@@ -1,5 +1,24 @@
-# bri-lib
-A library of useful C# concepts including Observables, Promises, Queueables, etc. Mostly unit tested.
+# bri-lib-tests
+BriLib is a library of useful C# concepts for Unity development. These are the tests for the BriLib core project. If you want just the core code, go to the core repo at:
+https://github.com/cybergen/bri-lib
+
+# BriLib includes:
+* Camera screenshot capture tooling
+* Observable properties
+* Observable collections
+* Template duplication/bind on collections
+* Easing curves
+* Geometry helpers like saving meshes as asset at runtime
+* Voronoi diagrams
+* Delaunay triangulations
+* Logging
+* Queueing stuff for defering interactions on main thread
+* Math help
+* Convenient static extensions
+* Pub-sub message system
+* Space partitioning data structures Quadtree and Octree
+* Some UI helpers
+* More!
 
 # License
 
