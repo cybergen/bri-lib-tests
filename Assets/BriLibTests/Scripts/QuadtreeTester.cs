@@ -1,11 +1,9 @@
 using UnityEngine;
-using BriLib;
 
 namespace BriLib.Tests
 {
   public class QuadtreeTester : TextureWriteTester
   {
-    public int PointSize;
     public Color PointColor;
     public Color BoundsColor;
 
@@ -48,7 +46,7 @@ namespace BriLib.Tests
     {
       foreach (var point in _tree.GetPointRange(Width / 2, Height / 2, Width / 2))
       {
-        DrawPoint((int)point.X, (int)point.Y, PointSize, PointColor);
+        DrawPoint((int)point.X, (int)point.Y, (int)PointSize, PointColor);
       }
     }
 
