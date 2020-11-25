@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using BriLib;
+using BriLib.UI;
 
 public class DialogSpawner : Panel
 {

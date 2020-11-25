@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine.UI;
 using BriLib;
+using BriLib.UI;
 
 public class TestStringPanel : FadingPanel<string>
 {
